@@ -64,11 +64,13 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/Settings.png)
   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/token.png)
 
-  设置名字为GITHUB_TOKEN , 然后勾选 repo , admin:repo_hook , workflow 等选项，最后点击Generate token即可。
+  设置名字为GITHUB_TOKEN , 然后勾选 repo , admin:repo_hook , workflow 等选项，最后点击Generate token。
   
   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/repo.png)
   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/adminrepo.png)
   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/workflow.png)
+  
+  然后，在settings>secrets and variables内新建一个GH_TOKEN，值为刚才生成的值
 
 * 第五步，点击右上角星星/star立马调用一次，再点击上面的Action就能看到每次的运行日志，看看运行状况
 
