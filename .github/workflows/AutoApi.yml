@@ -5,13 +5,10 @@ on:
   release:
     types: [published]
   push:
-    tags:
-    - 'v*'
-  #  branches: 
-  #    - master
+    branches: 
+      - master
   schedule:
-    - cron: '0 16 * * *'
-    - cron: '0 */4 * * *'
+    - cron: '12 */3 * * *'
   watch:
     types: [started]
    
